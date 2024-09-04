@@ -31,8 +31,8 @@
         }
 
        .Hoof {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
     font-weight: 300;
     font-family: "Libre Baskerville", serif;
     color: rgb(200, 172, 214);
@@ -50,8 +50,8 @@
     width: 100%;
     background-color: rgb(46, 35, 108);
     border: 10px;
-    align-self: row;
-    justify-content: space-between;
+    display: flex;
+    justify-content: space-around;
 }
 
 .foto img {
